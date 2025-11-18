@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="SCEH - Entreprise spécialisée en construction, ingénierie de bâtiment, travaux publics et hydraulique. Expertise technique et engagement envers l'excellence.">
+        <title>SCEH - Construction, Ingénierie & Travaux Publics</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!-- Header & Navigation -->
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> 
+            <a href="#accueil" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                <span class="fs-5" style="font-weight: bold;"><h1>SCEH</h1></span> 
+            </a> 
+            <ul class="nav nav-pills"> 
+                <li class="nav-item"><a href="#accueil" class="nav-link active" aria-current="page">Accueil</a></li> 
+                <li class="nav-item"><a href="#services" class="nav-link">Nos services</a></li> 
+                <li class="nav-item"><a href="#realisations" class="nav-link">Réalisations</a></li> 
+                <li class="nav-item"><a href="#apropos" class="nav-link">À propos</a></li> 
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li> 
+            </ul> 
+        </header>
+
+        <!-- Hero Section -->
+        <section id="accueil" class="hero-section">
+            <div class="container col-xxl-8 px-4 py-5"> 
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">  
+                    <div class="col-10 col-sm-8 col-lg-6"> 
+                        <img src="constructionImage.jpg" class="d-block mx-lg-auto img-fluid" alt="Construction SCEH" width="700" height="500" loading="lazy"> 
+                    </div> 
+                    <div class="col-lg-6"> 
+                        <h1 class="display-5 fw-bold lh-1 mb-3">Construire l'avenir avec rigueur et expertise</h1> 
+                        <p class="lead">SCEH est votre partenaire de confiance pour tous vos projets de construction, d'ingénierie de bâtiment, 
+                            de travaux publics et d'hydraulique. Avec notre expertise technique et notre engagement envers l'excellence, 
+                            nous transformons vos visions en réalités durables.
+                        </p> 
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+                            <a href="#services" class="btn btn-primary btn-lg px-4 me-md-2">Nos services</a> 
+                            <a href="#realisations" class="btn btn-outline-secondary btn-lg px-4">Nos réalisations</a> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="container px-4 py-5"> 
+            <h2 class="pb-2 border-bottom text-center mb-5">Nos services</h2> 
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+                <div class="feature col"> 
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> 
+                        <i class="bi bi-building"></i>
+                    </div> 
+                    <h3 class="fs-2 text-body-emphasis">Construction & Ingénierie de Bâtiment</h3> 
+                    <p>Conception, planification et réalisation de projets de construction résidentiels, commerciaux et industriels. 
+                        Notre équipe d'ingénieurs assure la qualité et la conformité de chaque projet.
+                    </p> 
+                    <a href="#contact" class="icon-link"> 
+                        En savoir plus
+                        <i class="bi bi-arrow-right"></i>
+                    </a> 
+                </div> 
+                <div class="feature col"> 
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> 
+                        <i class="bi bi-road"></i>
+                    </div> 
+                    <h3 class="fs-2 text-body-emphasis">Travaux Publics</h3> 
+                    <p>Réalisation d'infrastructures publiques : routes, ponts, réseaux d'assainissement, 
+                        aménagements urbains et projets d'envergure pour le développement des collectivités.
+                    </p> 
+                    <a href="#contact" class="icon-link">
+                        En savoir plus
+                        <i class="bi bi-arrow-right"></i>
+                    </a> 
+                </div> 
+                <div class="feature col"> 
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> 
+                        <i class="bi bi-droplet"></i>
+                    </div> 
+                    <h3 class="fs-2 text-body-emphasis">Ingénierie Hydraulique</h3> 
+                    <p>Expertise en gestion de l'eau : systèmes d'irrigation, barrages, stations de traitement, 
+                        réseaux d'eau potable et projets hydrauliques complexes pour une gestion optimale des ressources.
+                    </p> 
+                    <a href="#contact" class="icon-link">
+                        En savoir plus
+                        <i class="bi bi-arrow-right"></i>
+                    </a> 
+                </div> 
+            </div> 
+        </section>
+
+        <!-- Realisations Section -->
+        <section id="realisations" class="project_container">
+            <div class="real">
+                <h1>Nos réalisations</h1>
+            </div>
+
+            <div id="carouselExampleCaptions" class="carousel slide" style="max-width: 900px; width: 100%;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="constructionImage.jpg" class="d-block w-100" alt="Projet de construction">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Projet Résidentiel Moderne</h5>
+                            <p>Construction d'un complexe résidentiel de 50 unités avec intégration de technologies durables et respectueuses de l'environnement.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="croquis1.PNG" class="d-block w-100" alt="Projet d'ingénierie">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Infrastructure Routière</h5>
+                            <p>Réalisation d'un projet routier majeur incluant ponts et échangeurs pour améliorer la connectivité régionale.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="croquis2.PNG" class="d-block w-100" alt="Projet hydraulique">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Système Hydraulique</h5>
+                            <p>Conception et installation d'un système d'irrigation moderne pour une gestion optimale des ressources en eau.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Précédent</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Suivant</span>
+                </button>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="apropos" class="apropos">
+            <div class="container">
+                <h1 class="mb-4">À propos de nous</h1>
+                <p style="max-width: 900px; margin: 0 auto; font-size: 1.1rem; line-height: 1.8;">
+                    SCEH est une entreprise spécialisée dans la construction, l'ingénierie de bâtiment, les travaux publics et l'hydraulique. 
+                    Forte de son expertise technique et de son engagement envers l'excellence, notre équipe accompagne ses clients 
+                    dans la réalisation de projets ambitieux et durables. Nous mettons notre savoir-faire au service de l'innovation 
+                    et de la qualité, en respectant les normes les plus strictes et en privilégiant des solutions respectueuses de l'environnement. 
+                    Que ce soit pour un projet résidentiel, commercial, industriel ou d'infrastructure publique, SCEH est votre partenaire de confiance.
+                </p>
+                <div class="row mt-5 g-4">
+                    <div class="col-md-4 text-center">
+                        <div class="feature-icon mx-auto mb-3">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h4>Excellence</h4>
+                        <p>Engagement envers la qualité et l'excellence dans chaque projet</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="feature-icon mx-auto mb-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h4>Expertise</h4>
+                        <p>Équipe d'ingénieurs et de professionnels expérimentés</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="feature-icon mx-auto mb-3">
+                            <i class="bi bi-heart-pulse"></i>
+                        </div>
+                        <h4>Durabilité</h4>
+                        <p>Solutions respectueuses de l'environnement et durables</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="text-center mb-5">Contactez-nous</h2>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="contact-info">
+                            <h4><i class="bi bi-envelope me-2"></i>Email</h4>
+                            <p>contact@sceh.com</p>
+                            <p>info@sceh.com</p>
+                        </div>
+                        <div class="contact-info">
+                            <h4><i class="bi bi-telephone me-2"></i>Téléphone</h4>
+                            <p>+33 1 23 45 67 89</p>
+                            <p>+33 1 23 45 67 90</p>
+                        </div>
+                        <div class="contact-info">
+                            <h4><i class="bi bi-geo-alt me-2"></i>Adresse</h4>
+                            <p>123 Avenue de la Construction</p>
+                            <p>75000 Paris, France</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact-form">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="nom" class="form-label">Nom complet</label>
+                                        <input type="text" class="form-control" id="nom" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="telephone" class="form-label">Téléphone</label>
+                                        <input type="tel" class="form-control" id="telephone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="sujet" class="form-label">Sujet</label>
+                                        <select class="form-select" id="sujet" required>
+                                            <option value="">Sélectionnez un sujet</option>
+                                            <option value="construction">Construction</option>
+                                            <option value="ingenierie">Ingénierie de Bâtiment</option>
+                                            <option value="travaux-publics">Travaux Publics</option>
+                                            <option value="hydraulique">Ingénierie Hydraulique</option>
+                                            <option value="autre">Autre</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">Envoyer le message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"> 
+                <div class="col mb-3"> 
+                    <a href="#accueil" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"> 
+                        <span class="fs-4 fw-bold">SCEH</span>
+                    </a> 
+                    <p class="text-body-secondary">© 2025 SCEH. Tous droits réservés.</p> 
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="text-body-secondary"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-body-secondary"><i class="bi bi-linkedin fs-5"></i></a>
+                        <a href="#" class="text-body-secondary"><i class="bi bi-twitter fs-5"></i></a>
+                    </div>
+                </div> 
+                <div class="col mb-3"></div> 
+                <div class="col mb-3"> 
+                    <h5>Navigation</h5> 
+                    <ul class="nav flex-column"> 
+                        <li class="nav-item mb-2"><a href="#accueil" class="nav-link p-0 text-body-secondary">Accueil</a></li> 
+                        <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-body-secondary">Nos services</a></li> 
+                        <li class="nav-item mb-2"><a href="#realisations" class="nav-link p-0 text-body-secondary">Réalisations</a></li> 
+                        <li class="nav-item mb-2"><a href="#apropos" class="nav-link p-0 text-body-secondary">À propos</a></li> 
+                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-body-secondary">Contact</a></li> 
+                    </ul> 
+                </div> 
+                <div class="col mb-3"> 
+                    <h5>Services</h5> 
+                    <ul class="nav flex-column"> 
+                        <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-body-secondary">Construction</a></li> 
+                        <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-body-secondary">Ingénierie de Bâtiment</a></li> 
+                        <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-body-secondary">Travaux Publics</a></li> 
+                        <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-body-secondary">Ingénierie Hydraulique</a></li> 
+                    </ul> 
+                </div> 
+                <div class="col mb-3"> 
+                    <h5>Contact</h5> 
+                    <ul class="nav flex-column"> 
+                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-body-secondary"><i class="bi bi-envelope me-1"></i>Email</a></li> 
+                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-body-secondary"><i class="bi bi-telephone me-1"></i>Téléphone</a></li> 
+                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-body-secondary"><i class="bi bi-geo-alt me-1"></i>Adresse</a></li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <script>
+            // Smooth scroll for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        // Update active nav link
+                        document.querySelectorAll('.nav-link').forEach(link => {
+                            link.classList.remove('active');
+                        });
+                        this.classList.add('active');
+                    }
+                });
+            });
+
+            // Update active nav link on scroll
+            window.addEventListener('scroll', () => {
+                let current = '';
+                const sections = document.querySelectorAll('section[id]');
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+
+            // Form submission handler
+            document.querySelector('form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Merci pour votre message ! Nous vous contacterons sous peu.');
+                this.reset();
+            });
+        </script>
+    </body>
+</html>
